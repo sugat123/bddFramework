@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Automation framework" verbose="10" configfailurepolicy="skip" annotations="JDK">
+    <test name="BDD Automation" annotations="JDK" preserve-order="true">
+<!--        <parameter name="browser" value="chrome"/>-->
+        <classes>
+            <class name="Utility.TestRunner01"/>
+        </classes>
+    </test>
+</suite>
